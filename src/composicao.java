@@ -11,19 +11,19 @@
 public class composicao {
     public static void main(String[] args) {
         
-        // primeira forma chamar contrutores
+        // primeira forma chamar contrutores - direta
         /*
         carro c = new carro();
         carro c2 = new carro(2000);
         */
         
-        // segunda forma
+        // segunda forma - dentro da classe
         /*
         carro c3 = new carro();
         c3.ligarCarro(2000);
         */
         
-        //terceira forma
+        //terceira forma - na própria classe menor
         
         carro c4 = new carro(0);
         motor m = new motor();
@@ -32,5 +32,9 @@ public class composicao {
         c4.setM(m);
         
         c4.imprimeDados();
-    }
+        
+       
+        
+
+    } 
 }

@@ -21,6 +21,10 @@ public class carro {
                 "" + m.getPotencia());
     }
     
+    
+
+    
+    
     public void ligarCarro(int potencia){
         m = new motor(potencia);
     }
@@ -43,6 +47,10 @@ public class carro {
 
     public void setD(direcao d) {
         this.d = d;
+    }
+
+    void getD(direcao d) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
     
