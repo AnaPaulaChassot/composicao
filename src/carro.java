@@ -12,6 +12,23 @@ public class carro {
     private motor m;
     private direcao d;
     
+    public carro (){
+        m = new motor();
+    }
+    
+    public void imprimeDados(){
+        System.out.println("Potencia do motor: " +
+                "" + m.getPotencia());
+    }
+    
+    public void ligarCarro(int potencia){
+        m = new motor(potencia);
+    }
+    
+    public carro (int potencia) {
+        m = new motor(potencia);
+    }
+    
     public motor getM() { // recupera
         return m;
     }

@@ -10,7 +10,16 @@
  */
 public class motor {
     private int potencia;
+    
+    
+   public motor(){
+       potencia=1000; //valor padrão
+   }
 
+   public motor(int potencia){
+       this.potencia=potencia; // novo valor definido 
+   }
+   
     public int getPotencia() {
         return potencia;
     }
